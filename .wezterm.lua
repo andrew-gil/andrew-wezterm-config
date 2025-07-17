@@ -4,8 +4,8 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
 config.color_scheme = "Catppuccin Macchiato"
-config.font_size = 12
-config.font = wezterm.font("JetBrains Mono")
+config.font_size = 13
+config.font = wezterm.font("JetBrains Mono", { weight = "DemiBold" })
 config.enable_tab_bar = true
 config.leader = { mods = "CTRL", key = "w", timeout_milliseconds = 2000 }
 config.keys = {
